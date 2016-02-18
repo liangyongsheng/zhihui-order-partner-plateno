@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<util:map id="partner.plateno.service.book" map-class="java.util.HashMap">
+		<entry key="wsdl" value="http://121.33.201.180:6005/Booking.asmx?wsdl" />
+		<entry key="organizationId" value="109" />
+		<entry key="cardNo" value="51005000111" />
+	</util:map>
+
+	<util:map id="partner.plateno.service.chain" map-class="java.util.HashMap">
+		<entry key="wsdl" value="http://121.33.201.180:6005/BookingHelp.asmx?wsdl" />
+	</util:map>
+
+	<util:map id="partner.plateno.service.login" map-class="java.util.HashMap">
+		<entry key="wsdl" value="http://121.33.201.180:6005/AboutMember.asmx?wsdl" />
+		<entry key="user" value="111555" />
+		<entry key="pwd" value="dp916" />
+		<!--<entry key="user" value="145852" /> <entry key="pwd" value="~~$$43R" /> -->
+	</util:map>
+</beans>
